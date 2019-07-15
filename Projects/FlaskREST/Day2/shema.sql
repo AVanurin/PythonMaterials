@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS matches;
+
+CREATE TABLE matches(
+	id INTEGER PRIMARY_KEY,
+	team1 VARCHAR,
+	team2 VARCHAR,
+	country VARCHAR,
+	city VARCHAR,
+	score1 INTEGER,
+	score2 INTEGER
+);
